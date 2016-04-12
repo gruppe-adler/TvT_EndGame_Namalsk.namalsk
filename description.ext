@@ -1,6 +1,5 @@
-author = "Name für Gruppe Adler";
-onLoadName = "EndGame Template";
-briefingName = "EndGame Template";
+author = "McDiod für Gruppe Adler";
+onLoadName = "ENDGAME NAMALSK";
 onLoadMission = "";
 loadScreen = "data\loadpic.paa";
 
@@ -23,7 +22,7 @@ class Header
 /*class CfgTaskEnhancements
 {
 	enable 		= 1;
-	3d 		= 1;
+	3d 		= 0;
 	3dDrawDist 	= 2;
 	share		= 1;
 	propagate	= 1;
