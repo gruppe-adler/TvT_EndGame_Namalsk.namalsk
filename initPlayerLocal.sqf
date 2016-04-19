@@ -1,4 +1,4 @@
-#include "SETTINGS.sqf";
+#include "USERSCRIPTS\missionsettings.sqf";
 
 //PLAYER ONLY ==================================================================
 if (hasInterface) then {
