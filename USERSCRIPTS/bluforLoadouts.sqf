@@ -268,7 +268,7 @@ _mg_schuetze = {
   this addVest "rhsusf_iotv_ocp_SAW";
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
-  for "_i" from 1 to 2 do {this addItemToVest "rhsusf_100Rnd_556x45_M200_soft_pouch";};
+  for "_i" from 1 to 2 do {this addItemToVest "rhsusf_100Rnd_556x45_soft_pouch";};
   this addBackpack "rhsusf_assault_eagleaiii_ocp";
   for "_i" from 1 to 2 do {this addItemToBackpack "rhs_200rnd_556x45_M_SAW";};
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
@@ -315,7 +315,7 @@ _mg_assistent = {
   for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
   this addBackpack "rhsusf_assault_eagleaiii_ocp";
   for "_i" from 1 to 2 do {this addItemToBackpack "rhs_200rnd_556x45_M_SAW";};
-  this addItemToBackpack "rhsusf_100Rnd_556x45_M200_soft_pouch";
+  this addItemToBackpack "rhsusf_100Rnd_556x45_soft_pouch";
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
