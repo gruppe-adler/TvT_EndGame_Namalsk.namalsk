@@ -15,7 +15,7 @@ _fillslingloadobject_1 =
 [],
 [["rhsusf_assault_eagleaiii_ocp"],[2]],
 [["ACE_fieldDressing","ACE_morphine","ACE_epinephrine","ACE_bloodIV_500","ACE_EarPlugs"],[80,40,15,15,20]],
-[["1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_Smoke_Grenade_shell","SmokeShell","SmokeShellGreen","SmokeShellRed","SmokeShellYellow","SMA_30Rnd_556x45_Mk262","rhsusf_200Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_m67"],[5,5,5,5,5,20,30,5,5,5,80,40,20,20,10]],
+[["1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_Smoke_Grenade_shell","SmokeShell","SmokeShellGreen","SmokeShellRed","SmokeShellYellow","rhs_mag_30Rnd_556x45_Mk262_Stanag","rhsusf_200Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_mag_15Rnd_9x19_JHP","rhs_mag_m67"],[5,5,5,5,5,20,30,5,5,5,80,40,20,20,10]],
 [["rhs_weap_M136"],[2]]];
 
 //ami car
@@ -26,7 +26,7 @@ _fillslingloadobject_3 =
 [],
 [[],[]],
 [[],[]],
-[["SmokeShell","SMA_30Rnd_556x45_Mk262","rhsusf_200Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"],[10,20,4,4]],
+[["SmokeShell","rhs_mag_30Rnd_556x45_Mk262_Stanag","rhsusf_200Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"],[10,20,4,4]],
 [["rhs_weap_M136"],[1]]];
 
 //rus box

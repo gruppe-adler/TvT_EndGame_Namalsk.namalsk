@@ -34,7 +34,7 @@ _gruppenfuehrer = {
   for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
   this addVest "rhsusf_iotv_ocp_Squadleader";
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
   this addItemToVest "SmokeShellBlue";
@@ -46,8 +46,8 @@ _gruppenfuehrer = {
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4MOE";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_carryhandle";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhsusf_weap_m9";
   this addWeapon "Binocular";
@@ -83,7 +83,7 @@ _truppfuehrer = {
   for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
   this addVest "rhsusf_iotv_ocp_Teamleader";
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
   this addItemToVest "SmokeShellBlue";
@@ -95,8 +95,8 @@ _truppfuehrer = {
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4MOE";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_carryhandle";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhsusf_weap_m9";
   this addWeapon "Binocular";
@@ -134,7 +134,7 @@ _sanitaeter = {
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
   for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   this addBackpack "rhsusf_assault_eagleaiii_ocp";
   for "_i" from 1 to 40 do {this addItemToBackpack "ACE_fieldDressing";};
   for "_i" from 1 to 30 do {this addItemToBackpack "ACE_morphine";};
@@ -143,8 +143,8 @@ _sanitaeter = {
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4CQBR";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_carryhandle";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhsusf_weap_m9";
   this addWeapon "Binocular";
@@ -182,12 +182,12 @@ _schuetze_at = {
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
   for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4afg_BLK1_SM";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_carryhandle";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhs_weap_M136";
   this addWeapon "rhsusf_weap_m9";
@@ -225,13 +225,13 @@ _grenadier = {
   this addVest "rhsusf_iotv_ocp_Grenadier";
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
   for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_m67";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   for "_i" from 1 to 8 do {this addItemToVest "1Rnd_Smoke_Grenade_shell";};
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4_GL";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_m203";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhsusf_weap_m9";
   this addWeapon "Binocular";
@@ -276,7 +276,7 @@ _mg_schuetze = {
   comment "Add weapons";
   this addWeapon "rhs_weap_m249_pip_L_vfg";
   this addItemToBackpack "rhs_200rnd_556x45_M_SAW";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+
   this addWeapon "Binocular";
 
   comment "Add items";
@@ -312,15 +312,15 @@ _mg_assistent = {
   for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};
   for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
   for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
-  for "_i" from 1 to 10 do {this addItemToVest "SMA_30Rnd_556x45_Mk262";};
+  for "_i" from 1 to 10 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk262_Stanag";};
   this addBackpack "rhsusf_assault_eagleaiii_ocp";
   for "_i" from 1 to 2 do {this addItemToBackpack "rhs_200rnd_556x45_M_SAW";};
   this addItemToBackpack "rhsusf_100Rnd_556x45_soft_pouch";
   this addHeadgear "rhsusf_ach_helmet_headset_ocp";
 
   comment "Add weapons";
-  this addWeapon "SMA_M4afgSTOCK";
-  this addPrimaryWeaponItem "SMA_SFFL_BLK";
+  this addWeapon "rhs_weap_m4a1_carryhandle";
+
   this addPrimaryWeaponItem "rhsusf_acc_compm4";
   this addWeapon "rhsusf_weap_m9";
   this addWeapon "Binocular";
