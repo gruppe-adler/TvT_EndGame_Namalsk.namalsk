@@ -84,7 +84,6 @@ addons[]=
 	"A3_Structures_F_EPB_Civ_Garbage",
 	"rhs_c_t72",
 	"A3_Structures_F_EPC_Civ_Accessories",
-	"SAR_ru_architecture",
 	"A3_Structures_F_EPC_Items_Electronics",
 	"A3_Air_F_Heli_Light_01",
 	"ga_heli",
@@ -13058,7 +13057,7 @@ class Mission
 			{
 			};
 			id=540;
-			type="land_Objects8";
+			type="Land_TablePlastic_01_F";
 			atlOffset=-3.0517578e-005;
 			class CustomAttributes
 			{
@@ -13878,7 +13877,7 @@ class Mission
 			{
 			};
 			id=594;
-			type="land_Objects7";
+			type="Land_TablePlastic_01_F";
 			atlOffset=3.7965469;
 			class CustomAttributes
 			{
@@ -21102,7 +21101,7 @@ class Mission
 			{
 			};
 			id=1153;
-			type="land_Objects30";
+			type="Land_TablePlastic_01_F";
 		};
 		class Item420
 		{
@@ -21118,7 +21117,7 @@ class Mission
 			{
 			};
 			id=1154;
-			type="land_Objects84";
+			type="Land_TablePlastic_01_F";
 		};
 		class Item421
 		{
