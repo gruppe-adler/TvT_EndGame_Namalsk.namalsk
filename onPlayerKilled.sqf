@@ -10,6 +10,10 @@ if (GAMEPHASE >= 3) exitWith {call mcd_fnc_startSpectator};
 
 private ["_timeleft","_waveLeft","_minutes","_seconds","_respawnIn", "_explanation"];
 
+[true] call mcd_fnc_blockMap;
+[player] joinSilent grpNull;
+_timeOfDeath = time;
+
 //keep player from respawning
 setPlayerRespawnTime 9999;
 sleep 2;
@@ -94,6 +98,7 @@ while _waitCondition do {
 
   sleep 1;
 
+  if (time - _timeOfDeath > MAXRESPAWNTIME && (call _playersLeft) >= RESPAWNWAVESIZE-1) exitWith {};
   if (GAMEPHASE >= 3) exitWith {};
 };
 if (GAMEPHASE >= 3 && !(call _freeRespawn)) exitWith {call mcd_fnc_startSpectator};
