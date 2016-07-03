@@ -22,7 +22,7 @@ while {!_allFound} do {
     _counter = _counter + 1;
   } else {
     _notFoundCount = _notFoundCount + 1;
-    if (_notFoundCount >= 10) then {
+    if (_notFoundCount >= 50) then {
       diag_log format ["clearVehicles.sqf - No further vehicles found. %1 found total.", _counter];
       _allFound = true;
     };
